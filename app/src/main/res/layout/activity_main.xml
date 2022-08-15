@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e6e6f9"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/quran"
+
+        />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#171825"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/a"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Surah Ar-Rahman (Be Heaven) سورة الرحمن"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#171825"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:src="@drawable/b"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="Heart Soothing Recitation of
+             Sura Yaseen ┇ Recited by Ismail An Nouri"
+            android:maxLines="4"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#171825"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:src="@drawable/c"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="AL MULK | QURAN RECITATION | سورة الملك"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#171825"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:src="@drawable/d"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Surah Waqiah Recited by Zain Abu Kautsar ┇ An Nafee"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#171825"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:src="@drawable/e"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Surah Al Baqarah (Powerful) Verses 1-74 عمر هشام العربي - مؤثرة - سورة البقرة"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
